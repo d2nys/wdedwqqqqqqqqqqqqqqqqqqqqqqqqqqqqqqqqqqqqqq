@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+        list-style: none;
+      }
+      .nav {
+        display: flex;
+        gap: 70px;
+      }
+
+      .Contact {
+        display: flex;
+        gap: 30px;
+      }
+
+      header,
+      footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #ff0000;
+        height: 50px;
+      }
+
+      a {
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+      }
+      * {
+        margin: 0;
+      }
+      .clients{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      img{
+        transition: 2s;
+      }
+
+      img:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">WebsiteLogo</a></li>
+                <li><a href="contacts.html" target="_blank">Contacts</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a target="_blank" href="about.html">about</a></li>
+            </ul>
+        </nav>
+        
+        <ul class="Contact">
+            <li><a href="tel:+380975643251">+380975643251</a></li>
+            <li><a target="_blank" href="https://t.me/beaming_drive">Telegram</a></li>
+        </ul>
+    </header>
+    <main>
+        <ul class="clients">
+            <li>
+                <img width="500" src="https://miro.medium.com/v2/resize:fit:1400/1*opn1wt7cJxF3a4KnqHItVw.jpeg" alt="">
+                <h2>Богдан Єремов</h2>
+                <p>Власник ресторанів </p>
+                <p>Залишився задоволений, дякую за роботу</p>
+            </li>
+            <li>
+                <img width="500" src="https://miro.medium.com/v2/resize:fit:1400/1*opn1wt7cJxF3a4KnqHItVw.jpeg" alt="">
+                <h2>Ігор Жуков</h2>
+                <p>Власник заправок</p>
+                <p>Все сподобалось, ви найкращі</p>
+            </li>
+            <li>
+                <img width="500" src="https://miro.medium.com/v2/resize:fit:1400/1*opn1wt7cJxF3a4KnqHItVw.jpeg" alt="">
+                <h2>Артем браз</h2>
+                <p>Власник автосалону </p>
+                <p>Все супер дуже дякую мені сподобалося</p>
+            </li>
+            <li>
+                <img width="500" src="https://miro.medium.com/v2/resize:fit:1400/1*opn1wt7cJxF3a4KnqHItVw.jpeg" alt="">
+                <h2> Ваня Жовтній</h2>
+                <p>Власник складу</p>
+                <p>Дизайн супер 10/10</p>
+            </li>
+            <li>
+                <img width="500" src="https://miro.medium.com/v2/resize:fit:1400/1*opn1wt7cJxF3a4KnqHItVw.jpeg" alt="">
+                <h2>Віктор Речній</h2>
+                <p>Власник магазину мотоциклів </p>
+                <p>Все дуже класно,велике дякую вам</p>
+            </li>
+            <li>
+                <img width="500" src="https://miro.medium.com/v2/resize:fit:1400/1*opn1wt7cJxF3a4KnqHItVw.jpeg" alt="">
+                <h2>Роман Ммишковий</h2>
+                <p>Власник магазину електро товарів</p>
+                <p>Залишився дуже задоволеним,дякую за таку роботу </p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <ul class="nav">
+            <li><a href="index.html">WebsiteLogo</a></li>
+            <li><a href="contacts.html">Contact me</a></li>
+            <li><a href="./reviews.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <ul class="Contact">
+        <li><a href="tel:+380975643251+">+380975643251</a></li>
+        <li><a target="_blank" href="">Telegram</a></li>
+    </ul>
+    </footer>
+</body>
+</html>
